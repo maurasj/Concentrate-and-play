@@ -1,45 +1,61 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Concentrate and Play!
 
-Welcome USER_NAME,
+## About
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## UX
 
-## Gitpod Reminders
+### Goal for Website
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### User Stories
 
-`python3 -m http.server`
+### Wireframes
 
-A blue button should appear to click: *Make Public*,
+### Features
 
-Another blue button should appear to click: *Open Browser*.
+## Technologies used
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Testing
 
-A blue button should appear to click: *Make Public*,
+## Deployment
+This project was created on Github, and commited to Git
+In order to deploy the website
+To deploy this to Github pages from its GitHub repository, these are the instructions:
+1. Login to GitHub.
+2. Select file **concentrate-and-play**
+3. Select Settings from the menu
+4. Scroll down to find the **GitHub** pages
+5. On the options for **Branch** choose **master**
+6. Click the **save** button 
+7. The webpage refreshes itself
+8. Scroll down again to find **GitHub** pages and copy link shown
 
-Another blue button should appear to click: *Open Browser*.
+## To run this project localy: 
+The follwoing instructions will allow the project to be cloned onto Gitpod
+1. Open the Chrome browser
+2. Create a GitHub account
+3. Click on this link [The Yoga Mat](https://github.com/maurasj) whilst logged in
+4. Just after the repository name, there is a green button with the name 'Gitpod', 
+next click on the button with the name **Code**
+5. Copy the Link that shows
+6. Log in to your local IDE 
+7. Open up a bash terminal, navigate to the directory where you want to clone the repository 
+in the terminal 
+8. Type : git clone <then paste the link copied earlier>
+9. Press ENTER, and the project has been cloned.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-## Updates Since The Instructional Video
+## Credits
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Code
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Images
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Sound 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Acknowledgements
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Problems
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Future Developments
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+### Disclaimer

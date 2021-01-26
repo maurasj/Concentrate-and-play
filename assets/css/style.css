@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgba(191, 174, 219, 0.822);
+    display: flex;
+}
+
+.card-deck {
+    width: 800px;
+    height: 800px;
+    margin:auto;
+    border: 4px solid rgba(106, 103, 160, 0.493);
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+}
+
+.single-card {
+    width: calc(19% - 8px);
+    height: calc(25% - 8px);
+    margin: 2px;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .6s;
+}
+
+.single-card:active {
+transform: scale(1.2);
+transition: transform .7s;
+}
+
+.single-card.flip {
+
+}
+
+.front-image,
+.back-image {
+    border: 4px solid rgba(97, 123, 194, 0.493);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background: rgb(215, 188, 226);
+    backface-visibility: hidden;
+}
+
+.front-image {
+    transform: rotateY(180deg);
+}
