@@ -36,7 +36,7 @@ transition: transform .7s;
 }
 
 .single-card.flip {
-
+transform: rotateY(180deg);
 }
 
 .front-image,
